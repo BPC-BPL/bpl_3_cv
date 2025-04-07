@@ -53,3 +53,10 @@ source install/setup.bash
 ```
 po zbuildovani a nasourcovani mozeme spustat jednotlive nodes
 
+nodes ktoré je potrebné spustit
+```
+ros2 run bpl_uav_control drone_control
+```
+```
+ros2 run bpl_waypoint_control waypoint_control
+```
