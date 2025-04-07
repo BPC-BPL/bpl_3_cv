@@ -47,3 +47,9 @@ následne môžeme pomocou colcon build zbuilit vsetky packages
 ```
 colcon build
 ```
+následne
+```
+source install/setup.bash
+```
+po zbuildovani a nasourcovani mozeme spustat jednotlive nodes
+
