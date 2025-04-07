@@ -34,3 +34,16 @@ Vytvorenie zlozky src
 mkdir src
 ```
 následne si naklonujeme cv3 do zložky src, použite git clone, prípadne stiahnut cez http a nakopírovať
+
+ako prvé je potrebné zbuildit interfaces
+```
+colcon build --packages-select bpl_interfaces
+```
+nakoľko ďalšie knižnica potrebujú funkčné interfaces, musíme package zbuildovat predtým ako ideme buildovat dalsi a nasourcovať si ho
+```
+source install/setup.bash
+```
+následne môžeme pomocou colcon build zbuilit vsetky packages
+```
+colcon build
+```
