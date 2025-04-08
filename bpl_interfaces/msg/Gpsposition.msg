@@ -1,0 +1,6 @@
+float64 latitude_deg
+float64 longitude_deg
+float32 absolute_altitude_m
+float32 relative_altitude_m
+int32 number_of_satellites
+int32 fix_type
