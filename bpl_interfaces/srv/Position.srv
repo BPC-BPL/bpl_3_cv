@@ -1,0 +1,8 @@
+float32 latitude
+float32 longitude
+float32 altitude
+---
+bool success          # Whether the operation was successful
+int64 result          # Additional information, e.g., a result value
+string message        # Additional message describing the result
+
