@@ -62,7 +62,7 @@ ros2 run bpl_uav_control drone_control
 
 volanie takeoff
 ```
-ros2 service call /takeff std_srvs/srv/Trigger "{}"
+ros2 service call /takeoff std_srvs/srv/Trigger "{}"
 ```
 
 volanie land
@@ -77,10 +77,10 @@ ros2 service call /set_mode std_srvs/srv/Trigger "{}"
 
 volanie letu na bod
 ```
-ros2 service call /fly_to_point bpl_interfaces/srv/Position "{latitude: -35.363261, longtitude: 149.1652373, altitude: 603.5586}"
+ros2 service call /fly_to_point bpl_interfaces/srv/Position "{latitude: -35.363261, longitude: 149.1652373, altitude: 603.5586}"
 ```
 
-
+## Spustenie automatického volania jednotlivých nodes
 
 Následne spustenie node, ktorý volá jednotlivé services automaticky
 
